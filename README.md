@@ -28,3 +28,5 @@ Two ids are required to run the SBox and control its contactors:
 0x100 has a counter and CRC8 and is the main control message.
 
 0x300 can be static.
+
+Information such as Battery voltage, Current, Output voltage etc are provided over CAN making it a very versatile unit. Messages for Ah,kwh,kw etc are being investigated.
