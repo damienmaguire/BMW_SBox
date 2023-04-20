@@ -20,3 +20,11 @@ Pin 1 CANH
 Pin 10 CANL
 
 CAN is 500K speed.
+
+Two ids are required to run the SBox and control its contactors:
+
+0x100 and 0x300 at 20ms intervals.
+
+0x100 has a counter and CRC8 and is the main control message.
+
+0x300 can be static.
