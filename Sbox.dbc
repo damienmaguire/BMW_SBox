@@ -1,0 +1,54 @@
+VERSION ""
+
+
+NS_ :
+    NS_DESC_
+    CM_
+    BA_DEF_
+    BA_
+    VAL_
+    CAT_DEF_
+    CAT_
+    FILTER
+    BA_DEF_DEF_
+    EV_DATA_
+    ENVVAR_DATA_
+    SGTYPE_
+    SGTYPE_VAL_
+    BA_DEF_SGTYPE_
+    BA_SGTYPE_
+    SIG_TYPE_REF_
+    VAL_TABLE_
+    SIG_GROUP_
+    SIG_VALTYPE_
+    SIGTYPE_VALTYPE_
+    BO_TX_BU_
+    BA_DEF_REL_
+    BA_REL_
+    BA_DEF_DEF_REL_
+    BU_SG_REL_
+    BU_EV_REL_
+    BU_BO_REL_
+    SG_MUL_VAL_
+
+BS_: 
+BU_: 
+BO_ 544 PostContactorVoltage: 8 Vector__XXX
+   SG_ Bus_Voltage : 0|24@1+ (0.001,0) [0|16777.2] "" Vector__XXX
+
+BO_ 1296 Status: 8 Vector__XXX
+   SG_ KL30C_Status : 28|1@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 512 Current: 8 Vector__XXX
+   SG_ Battery_Current : 0|25@1- (1,-12) [-300000|300000] "mA" Vector__XXX
+
+BO_ 528 PackVoltage: 8 Vector__XXX
+   SG_ Battery_Voltage : 0|24@1+ (0.001,0) [0|16777.2] "" Vector__XXX
+
+BA_DEF_ BO_ "GenMsgBackgroundColor" STRING ;
+BA_DEF_ BO_ "GenMsgForegroundColor" STRING ;
+BA_DEF_ BO_ "isj1939dbc" INT 0 0;
+BA_DEF_DEF_ "GenMsgBackgroundColor" "#ffffff";
+BA_DEF_DEF_ "GenMsgForegroundColor" "#000000";
+BA_DEF_DEF_ "isj1939dbc" 0;
+VAL_ 1296 KL30C_Status 1 "KL30C Power absent" 0 "KL30C Power present";
