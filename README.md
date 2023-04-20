@@ -9,4 +9,14 @@ Inside there are 2 contactors , one precharge relay , precharge resistor as well
 
 Four heavy duty spade terminals provide connection for HV Battery + , - and Output + ,-
 
+Connection of Can data and 12v power is via a white 16 pin connector on the front.
 
+Pins 12 and 14 to +12v
+
+Pin 3 to GND
+
+Pin 1 CANH
+
+Pin 10 CANL
+
+CAN is 500K speed.
