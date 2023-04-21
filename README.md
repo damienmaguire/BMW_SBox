@@ -31,7 +31,7 @@ Byte 0 controls contactor function as follows :
 
 0x62 Activates negative contactor
 
-0x0A Activates negative contactor
+0x0A Activates positive contactor
 
 0x8A Activates positive contactor and precharge relay
 
